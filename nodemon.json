@@ -1,0 +1,5 @@
+{
+    "env":{
+        "DB_URL":"mongodb+srv://Philzace:chukky162@cluster0-aik1x.mongodb.net/test?retryWrites=true&w=majority"
+    }
+}
