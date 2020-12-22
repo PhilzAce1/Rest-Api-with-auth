@@ -9,7 +9,7 @@ const productRoute = require('./routes/products');
 const orderRoute = require('./routes/orders'); 
 const userRoute = require('./routes/user')
 
-mongoose.connect("mongodb+srv://Philzace:chukky162@cluster0-aik1x.mongodb.net/test?retryWrites=true&w=majority",
+mongoose.connect(process.env.MongoURL,
     { useNewUrlParser: true })
     .then(() => console.log("connected to DB"))
     .catch((err) => console.log(err))
